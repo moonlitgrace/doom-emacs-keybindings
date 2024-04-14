@@ -1,2 +1,3 @@
-# IMP Key-bindings for Doom Emacs
-Importand key-bindings from doom: evil-tutor
+# doomemacs key-bindings
+Importand key-bindings for doomemacs from evil-tutor.
+source: https://github.com/syl20bnr/evil-tutor
