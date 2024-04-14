@@ -1,0 +1,37 @@
+Importand KeyBindings as per evil-tutor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+y - yank text or line (copy)
+p - put the deleted or copied word after the cursor ( if its line, then below the cursor )
+
+x - delete a text under the cursor
+dw - delete to the end of the word
+dd - delete the whole line
+d$ - delete to the end of the line
+3dd - delete 3 lines
+
+u - undo
+Ctrl + R - redo
+
+r - replace the word under the cursor
+cw - change the word
+c$ - change to the end of the line
+
+gg - move to the beginning of the buffer
+G - end of the buffer
+/ - forward search for a term
+? - backword search
+n - find next search occurrence
+N - finx next search occurrence in the opposite direction
+:s/old/new - substitute a word in a line
+:s/old/new/g - substitute whole word in a line
+:%s/old/new - substitute words in the whole buffer
+:%s|s/old/new/c - sunstitute with confirmation
+
+:![command] - execute an external command
+
+o - open a new line under cursor
+O - open a new line above the cursor
+a - insert a text after the cursor (opposite of 'i') - 'insert mode'
+A - insert a text at the end of the line - 'insert mode'
+R - replace mode until <ESC> is pressed
